@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 .topHeading {
-  height: 4vh;
+  height: 5vh;
   background-color: var(--first-color);
   color: var(--white-color);
   display: flex;
@@ -35,20 +35,22 @@ a {
 .socialMedia {
   flex: 10;
   margin-left: 50px;
-  line-height: 25px;
+  line-height: 30px;
+  margin-top: 8px;
 }
 .socialMedia a {
   color: azure;
 }
 .searchBox {
+  margin-top: 5px;
   margin-right: 50px;
-  line-height: 20px;
+  line-height: 25px;
 }
 .searchBox a {
   color: #b7fae0;
 }
 input {
-  height: 2.5vh;
+  height: 3vh;
   width: 30vh;
   font-size: 0.7rem;
 }
@@ -71,11 +73,11 @@ input {
   font-size: 40px;
   padding-right: 10px;
 }
-.navMenu {
-}
+
 .menus {
   display: flex;
-  margin-left: 190px;
+  margin-left: 23%;
+  margin-top: 1vh;
 }
 .bar {
   text-align: between;
@@ -84,8 +86,95 @@ input {
 .bar a {
   color: var(--first-color);
   padding: 5px;
+  font-size: 1.5rem;
 }
 .bar a:hover {
   background-color: var(--second-color);
   color: var(--white-color);
+}
+.imgMain img{
+  margin-top: 40px;
+  width: 100%;
+  height: 80vh;
+}
+.textMain{
+  margin-left:20%;  
+  color: var(--second-color);
+  font-size: 2.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.textMain span {
+  margin-left: 40%;
+  font-family: cursive;
+  color:var(--second-color-dark);
+}
+.textContent h1{
+  margin-top: 10px;
+  margin-left: 70px;
+  font-size: 2.5rem;
+  color: gray;
+}
+.spaceCoffee{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+.circle{
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.circle img{
+  object-fit:cover;
+  width: 40vh;
+  height: 40vh;
+
+}
+.space1 h2{
+  margin-top: 2rem;
+  /* text-align: center; */
+  /* margin-left: 35%; */
+}
+.space1{
+  flex: 1;
+  margin-top: 80px;
+  margin-left: 80px;  
+}
+.blogSpace{
+  margin: auto;
+  width: 70%;
+}
+.blog1 h1{
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+}
+.blog1 p{
+  font-size: 2rem;
+  color: rgb(75, 74, 74);
+  margin-left: 10px;
+}
+.footer{
+  background-color: var(--first-color);
+  color: var(--white-color);
+  display: flex;
+  height: 20vh;
+  margin-top: 3vh;
+
+}
+.textFooterLeft{
+  flex: 1;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.textFooterRight{
+  flex: 1;
+  margin-left: 80px;
+  margin-top: 30px; 
+}
+.textFooterRight a h1{
+  color: whitesmoke;
 }
