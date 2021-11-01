@@ -142,7 +142,7 @@ input {
 .space1 h2{
   margin-top: 2rem;
   /* text-align: center; */
-  /* margin-left: 35%; */
+  margin-left: 60px;
 }
 .space1{
   flex: 1;
