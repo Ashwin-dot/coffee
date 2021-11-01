@@ -187,7 +187,7 @@ input {
 .textFooterRight a h1{
   color: whitesmoke;
 }
-button{
+.blog1 button{
   padding:5px;
   background-color: var(--second-color-dark);
   color: white;
@@ -195,7 +195,7 @@ button{
   margin-left: 30px;
   border-radius:10px;
 }
-button:hover{
+.blog1 button:hover{
   background-color: var(--first-color-light);
   color:var(--dark-color)
 }
